@@ -1,0 +1,240 @@
+@import url(../.css/all.min.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.encabezado-contenedor {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #ECEFF0;
+    max-width: 100%;
+    justify-content: flex-start;
+    
+}
+
+.imagen-logo-item1 {
+    display: inline;
+    width: 20%;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.busqueda-item2 {
+    display: inline;
+    border: solid #00769A 3px;
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    align-self: center;
+    font-size: 2em;
+    
+}
+
+
+
+
+a {
+
+    color: #00769A;
+    font-size: 3em;
+
+}
+
+a:hover {
+    color: #30BA9C;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.imagen-carousel {
+    display: flex;
+    align-self: stretch;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.contenedor{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    align-self: stretch;
+    margin-top: 20px;
+    
+}
+
+.fondo-iconos {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 80px 80px;
+    grid-gap: 10px;
+    color: #20586F; 
+    justify-content: space-around;
+    background-color: #ECEFF0;
+    
+    }
+
+.enfermedades-imagen{
+    font-size: 5em;
+    margin-top: 10%;
+    
+    
+    
+    
+}
+
+.enfermedades-texto-a{
+    font-size: 0.5em;
+    text-decoration: none;
+    color: #20586F;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.vacunas-imagen{
+     font-size: 5em;
+    margin-top: 10%;
+}
+
+.vacunas-texto-a{
+    font-size: 0.5em;
+    text-decoration: none;
+    color: #20586F;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.mapa-imagen{
+    font-size: 5em;
+    margin-top: 10%;
+}
+
+.vacunas-mapa-a{
+    font-size: 0.5em;
+    text-decoration: none;
+    color: #20586F;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+
+.enfermedades-texto:hover {
+    color: #30BA9C;
+    text-decoration: none;
+}
+
+.vacunas-texto:hover {
+    color: #30BA9C;
+    text-decoration: none;
+}
+
+.mapa-texto:hover {
+    color: #30BA9C;
+    text-decoration: none;
+}
+
+.llamado-covid {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+    background-color: #0085BD;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #ECEFF0;
+}
+
+.llamado-covid h6 {
+    font-size: 3em;
+}
+
+.llamado-covid h1 {
+    font-size: 10em;
+}
+
+.pie-de-pagina {
+    display: grid;
+    grid-template-columns: 12% 12% 12%;
+    grid-column-gap: 5%;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #ECEFF0;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pie-de-pagina h5 {
+    color: #30BA9C;
+    font-size: 1.3em;
+}
+
+.pie-de-pagina h6 {
+    color: #0085BD;
+    font-size: 1.1em;
+}
+
+@media screen and (min-width: 20em){
+    body{
+        font-size: 40%;
+    }
+    
+    h3{
+        font-size: 1em;
+    }
+     .fondo-iconos {
+            display: flex;
+            flex-wrap: wrap;
+        justify-content: space-between;
+}
+    
+    @media screen and (min-width: 47em){
+    body{
+       font-size: 70%;
+    }
+        .fondo-iconos {
+            display: flex;
+            flex-wrap: wrap;
+        justify-content: space-between;
+            
+}
+    
+}
+    
+     @media screen and (min-width: 60em){
+        body{
+            font-size: 90%;
+        }
+    }
+    
+    @media screen and (min-width: 85em){
+    body{
+        font-size: 100%;
+    }
+    
+   
+}
+
+    
+    
+    
+    
+
